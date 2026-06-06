@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37314.3 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd_With_Interfaces", "Tdd_With_Interfaces\Tdd_With_Interfaces.csproj", "{69CA36E1-73AB-4ABF-8035-438C2B60EABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{413C3DF0-0CCC-47A0-BDB6-3864E99B09A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{69CA36E1-73AB-4ABF-8035-438C2B60EABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69CA36E1-73AB-4ABF-8035-438C2B60EABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69CA36E1-73AB-4ABF-8035-438C2B60EABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413C3DF0-0CCC-47A0-BDB6-3864E99B09A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413C3DF0-0CCC-47A0-BDB6-3864E99B09A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413C3DF0-0CCC-47A0-BDB6-3864E99B09A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413C3DF0-0CCC-47A0-BDB6-3864E99B09A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
