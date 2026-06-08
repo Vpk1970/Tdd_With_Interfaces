@@ -2,21 +2,21 @@
 
 namespace TestProject1
 {
-    internal class Name<T> : IName<string>
+    internal class Name<T> : IName<T>
     {
-        public Name(string _name) 
+        public Name(string nameValue) 
         {
-            if (string.IsNullOrEmpty(_name))
+            if (string.IsNullOrEmpty(nameValue))
             {
-                ((IName<string>)this).Name = "Empty";
+                Value = "Empty";
             }
             else
             {
-                ((IName<string>)this).Name = _name;
+                Value = nameValue;
             }
         }
 
-        string IName<string>.Name { get; set; } = string.Empty;// oletus ""
-
+        public string Value { get; set; } = string.Empty; // ""
+        string IName<T>.Name { get => Value; set => Value = value; }
     }
 }
