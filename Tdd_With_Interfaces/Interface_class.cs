@@ -17,5 +17,10 @@
     {
         public string Name { get; set; }
     }
+    public interface IIndexer<T>
+    {
+        T this[int index] { get; set; }
+    }
+    
 
 }

@@ -55,6 +55,19 @@ namespace TestProject1
 
             //Assert.AreEqual(15, result);
         }
+        [TestMethod]
+        public void TestMethod5()
+        {
+            // Arrange
+            IIndexer<string> c = new Indexer<string>();
+            // Act
+            var result = c; // Just to use the variable and avoid warnings
+
+            // Assert
+            //Assert.IsNotNull(result);
+            Assert.AreEqual("", result[0]);
+
+        }
     }
 }
 
